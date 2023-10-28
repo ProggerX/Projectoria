@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/proggerx/coding/Projectoria",
+  "arguments": ["/etc/profiles/per-user/proggerx/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-I", "/home/proggerx/.xmake/packages/a/argh/v1.3.2/1d8e439debab4cb1a537c77dbadd5255/include", "-DNDEBUG", "-o", "build/.objs/Projectoria/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]
