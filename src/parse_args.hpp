@@ -1,4 +1,5 @@
 #include <argh.h>
+#include <set>
 #include <map>
 
 using namespace std;
@@ -13,6 +14,12 @@ public:
     map<string, string> params() {
         return parser->params();
     }
+	vector<string> pos_args() {
+		return parser->pos_args();
+	}
+	multiset<string> flags() {
+		return parser->flags();
+	}
     ~ArgsParser() {
         delete parser;
     }
